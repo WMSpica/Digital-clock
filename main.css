@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #a6b1aa;
+}
+
+#clock h2{
+	position: relative;
+	display: flex;
+	color: white;
+	margin-bottom: 25px;
+	margin-left: 15px;
+	justify-content: center;
+	text-transform: uppercase;
+	letter-spacing: 0.8em;
+	text-align: center;
+	font-size: 36px;
+	font-weight: 800;	
+}
+
+#clock #time{
+	display: flex;
+}
+
+#clock #time div{
+	position: relative;
+	margin: 5px;
+	border-top: 2px solid #6aaf7b;
+	-webkit-box-reflect: below 3px linear-gradient(
+	transparent, #0006)
+}
+
+#clock #time div:hover{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	transition: 0.3s;
+}
+
+#clock #time div span{
+	position: relative;
+	margin-top: 5px;
+	display: flex;
+	width: 150px;
+	height: 120px;
+	color: white;
+	letter-spacing: 0.1em;
+	font-size: 52px;
+	font-weight: 600;
+	justify-content: center;
+	align-items: center;
+}
+
+#clock #time div span:hover{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	transition: 0.3s;
+}
+
+#clock #time div span:nth-child(2){
+	font-size: 16px;
+	letter-spacing: 0.4em;
+	text-transform: uppercase;
+	justify-content: center;
+	font-weight: 500;
+	height: 25px;
+	border-top: 2px solid #6aaf7b;
+	border-bottom: 2px solid #6aaf7b;
+}
+
+#clock #time div:first-child span{
+	background: #6aaf7b;
+}
+
+#clock #time div:first-child span:first-child{
+	background: #6aaf7b;
+}
+
+#clock #time div:nth-child(2) span{
+	background: #6aaf7b;
+}
+
+#clock #time div:nth-child(2) span:nth-child(2){
+	background: #6aaf7b;
+}
+
+#clock #time div:nth-child(3) span{
+	background: #6aaf7b;
+}
+
+#clock #time div:nth-child(3) span:nth-child(3){
+	background: #d3ded6;
+}
+
+#clock #time div:last-child span{
+	background: #6aaf7b;
+}
+
+#clock #time div:last-child span:last-child{
+	background: #6aaf7b;
+}
+
